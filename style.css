@@ -1,0 +1,17 @@
+.game{
+    text-align: center;
+}
+.game_grid{
+    display: inline-grid;
+    grid-template-columns: repeat(3,120px);
+    grid-template-rows: repeat(3,120px);
+
+
+}
+.game_cell{
+    border: 1px solid #444;
+    line-height: 120px;
+}
+.game_status,.game_Restart{
+    margin: 1em 0;
+}
